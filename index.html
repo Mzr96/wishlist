@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Wishlist</div>
+      <button class="add-new-book">+ Add Movie</button>
+    </header>
+    <section class="books"></section>
+    <form class="hide" action="#">
+      <h2>Add New Movie</h2>
+      <div>
+        <label for="title">Title</label>
+        <input required type="text" name="title" id="title" />
+      </div>
+      <div>
+        <label for="author">Director</label>
+        <input required type="text" name="author" id="author" />
+      </div>
+      <div>
+        <label for="pages">Duration</label>
+        <input required type="number" name="pages" id="pages" />
+      </div>
+      <div>
+        <label for="isread">Have you Watched? </label>
+        <input type="checkbox" name="isread" id="isread" />
+      </div>
+      <button class="add">Add</button>
+    </form>
+  </body>
+</html>
